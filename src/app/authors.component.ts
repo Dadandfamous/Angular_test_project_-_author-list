@@ -24,5 +24,5 @@ export class AuthorsComponent {
     constructor(service: AuthorsService){
         this.authors = service.getAuthors()
     }
- 
 }
+
